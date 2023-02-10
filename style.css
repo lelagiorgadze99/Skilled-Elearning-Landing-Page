@@ -1,0 +1,143 @@
+body{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    background-image: linear-gradient(#FFFFFF, #F0F1FF);
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+}
+.hero{
+    width: 100%;
+}
+.logo{
+    margin: 22px 114px 45px 16px;
+}
+.top-button{
+    margin: 16px 16px 38px 0;
+    background-color: #13183F;
+    color:#FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    border-radius: 28px;
+    padding: 9px 24px 11px 24px;
+    cursor: pointer;
+}
+.top-button:hover{
+    background-color: #666CA3;
+}
+h1{
+    font-size: 40px;
+    line-height: 50.4px;
+    margin: 0 16px 26px 16px;
+    color:#13183F;
+    font-weight: 800;
+}
+.main-p{
+    color: #83869A;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0 16px 24px 16px;
+}
+.main-button{
+    color:#FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    background-image: linear-gradient(to bottom,hsla(13, 100%, 64%, 1), hsla(322, 87%, 55%, 1));
+    border: none;
+    border-radius: 31.5px;
+    margin: 24px 192px 70px 16px;
+    padding: 15px 37px;
+    cursor: pointer;
+}
+.main-button:hover{
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #FF6F48 0%, #F02AA6 100%);
+}
+h2{
+    color: #FFFFFF;
+    background-image: linear-gradient(to bottom,hsla(13, 100%, 64%, 1), hsla(322, 87%, 55%, 1));
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 800;
+    text-align: left;
+    padding: 24px 29px 32px 28px;
+    border-radius: 10px;
+    margin: 66px 16px 40px 16px;
+}
+h3{
+    font-size: 20px;
+    line-height: 25.2px;
+    font-weight: 800;
+    color: hsla(234, 53%, 16%, 1);
+    letter-spacing: 1px;
+    margin-bottom: 16px;
+    margin-left: 28px;
+    margin-top: 56px;
+}
+p{
+    color:hsla(233, 10%, 56%, 1);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 26px;
+    margin: 0 29px 24px 28px;
+}
+
+a{
+    margin-left: 28px;
+    text-decoration: none;
+    color: #F74780;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    cursor: pointer;
+}
+a:hover{
+    color: hsla(341, 100%, 83%, 1);
+}
+
+.animation, .design, .photography, .crypto, .business{
+    margin: 0 16px 40px 16px;
+    background-color: white;
+    border-radius: 10px;
+    padding-bottom: 32px;
+    padding-top: 24px;
+    position: relative;
+}
+
+.img-animation, .img-design, .img-photography, .img-crypto, .img-business{
+    position:absolute;
+    bottom: 80.21%;
+    left: 8.16%;
+    right: 75.51%;
+    top: -10%;
+}
+
+
+.bottom{
+    margin-top: 80px;
+    background-color: #13183F;
+    display: flex;
+    justify-content: space-between;
+}
+.light-logo{
+    margin: 43px 98px 42px 16px;
+}
+.last-button{
+    border: none;
+    background-image: linear-gradient(to bottom, #4851FF, #F02AA6);
+    color: #FFFFFF;
+    margin: 36px 16px;
+    border-radius: 28px;
+    padding: 9px 24px 11px 24px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 28px;
+    cursor: pointer;
+
+}
+.last-button:hover{
+    background-image: linear-gradient(0deg, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), linear-gradient(180deg, #4851FF -54.32%, #F02AA6 100%);;
+}
